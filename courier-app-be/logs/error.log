@@ -1,0 +1,19 @@
+{"code":"ER_WARN_DATA_OUT_OF_RANGE","driverError":{"code":"ER_WARN_DATA_OUT_OF_RANGE","errno":1264,"sql":"INSERT INTO `shipment`(`id`, `wayBillNumber`, `status`, `cost`, `weight`, `recipientName`, `recipientAddress`, `collectionAddress`, `collectedOn`, `instructions`, `deliveryPerson`, `deliveredOn`, `created_at`, `updated_at`, `ownerId`) VALUES ('dd8b516d-8778-492f-8622-399a22bdaf3b', 1716141672574, DEFAULT, DEFAULT, 1.12, 'Test 1', 'ssd', 'sdfsd', DEFAULT, 'sdf', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT)","sqlMessage":"Out of range value for column 'wayBillNumber' at row 1","sqlState":"22003"},"errno":1264,"level":"error","parameters":["dd8b516d-8778-492f-8622-399a22bdaf3b",1716141672574,1.12,"Test 1","ssd","sdfsd","sdf"],"query":"INSERT INTO `shipment`(`id`, `wayBillNumber`, `status`, `cost`, `weight`, `recipientName`, `recipientAddress`, `collectionAddress`, `collectedOn`, `instructions`, `deliveryPerson`, `deliveredOn`, `created_at`, `updated_at`, `ownerId`) VALUES (?, ?, DEFAULT, DEFAULT, ?, ?, ?, ?, DEFAULT, ?, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT)","sql":"INSERT INTO `shipment`(`id`, `wayBillNumber`, `status`, `cost`, `weight`, `recipientName`, `recipientAddress`, `collectionAddress`, `collectedOn`, `instructions`, `deliveryPerson`, `deliveredOn`, `created_at`, `updated_at`, `ownerId`) VALUES ('dd8b516d-8778-492f-8622-399a22bdaf3b', 1716141672574, DEFAULT, DEFAULT, 1.12, 'Test 1', 'ssd', 'sdfsd', DEFAULT, 'sdf', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT)","sqlMessage":"Out of range value for column 'wayBillNumber' at row 1","sqlState":"22003","timestamp":"2024-05-19T18:01:12.590Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:16:29.042Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:16:29.086Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:16:51.039Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:16:51.056Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:16:51.124Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:16:51.146Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:17:59.219Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:17:59.242Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:17:59.392Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:17:59.443Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:18:45.126Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:18:45.145Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:18:45.192Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:18:45.208Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:46:43.242Z"}
+{"level":"error","statusCode":404,"timestamp":"2024-05-19T18:46:43.380Z"}
+{"_original":{"collectedOn":null,"cost":"100.00","deliveredOn":null,"deliveryPerson":"Wekun","status":"COLLECTING"},"details":[{"context":{"key":"collectedOn","label":"collectedOn","value":null},"message":"\"collectedOn\" must be a valid date","path":["collectedOn"],"type":"date.base"}],"level":"error","timestamp":"2024-05-19T20:52:47.992Z"}
+{"_original":{"collectedOn":null,"cost":"100.00","deliveredOn":null,"deliveryPerson":"dgdfg","status":"COLLECTING"},"details":[{"context":{"key":"collectedOn","label":"collectedOn","value":null},"message":"\"collectedOn\" must be a valid date","path":["collectedOn"],"type":"date.base"}],"level":"error","timestamp":"2024-05-19T20:53:44.756Z"}
